@@ -1,0 +1,31 @@
+nav {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.main{
+    display: flex;
+    align-items: center;
+}
+.main li {
+    width: 10%;
+    list-style: none;
+}
+.main a {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+.logo {
+    flex-grow: 3;
+}
+.logo img {
+    width: 10%;
+    padding: 1% 2% 1% 5%; /* left,right,up,down */
+}
+
+.main a:hover {
+    background-color: white;
+    color: black;
+    border: 5px red solid;
+    border-radius: 3px;
+}
